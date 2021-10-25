@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.css" rel="stylesheet" />
+		<script type="text/css">
+			body{
+				background:white;
+			}
+			.mui-input-row{
+				height:60px;
+				padding:8px 0px;
+			}
+			.mui-input-group label{
+				width:22%;
+			}
+		
+		</script>
+	</head>
+
+	<body>
+
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">login/signup</h1>
+		</header>
+		<div class="mui-content">
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label for="username">UserName</label>
+					<input type="text" id="username" name="username" class="mui-input-clear" placeholder="please input username">
+				</div>
+				<div class="mui-input-row">
+					<label for="password">Password</label>
+					<input type="text" id="password" name="password" class="mui-input-clear" placeholder="please input password">
+				</div>
+				<div class="mui-content-padded">
+					<button type="button" class="mui-btn mui-btn-green mui-btn-block">login/signup</button>
+				</div>
+			</form>
+		</div>
+		
+		<script src="../js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
