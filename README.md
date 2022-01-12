@@ -30,15 +30,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Shen Zhen Metro Stations are put into effect for several years, but the interaction between the users and management groups are still not that clear and direct so I created this enhanced one.
+Shanghai Airport App is a commercial mobile app to enhance the passenger management and travel management modules’ back-end
 
 
 Here's what it is:
-* Split-Stack-Developed an online metro application that includes a user system and a management system.
-* Implemented authority management, subway management, statistical analysis, and line classification management.
-* Using Spring Boot for the back-end, React+Hooks For the front-end, and Amazon S3 to store files.
+* Deploying and Achieving distributed architecture, load balancing and hot backup via Haproxy & XtraBackp
+* Optimizing SQL query through Slow Query Log, and reducing query time by around 5 times through ElasticSearch
 
-Of course, no one website will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this website!
+
+Of course, no one app will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this app!
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -48,13 +48,12 @@ Of course, no one website will serve all projects since your needs may be differ
 ### Built With
 
 Major frameworks/libraries used to bootstrap this project.
-
-* [React](https://reactjs.org/)
-* [Spring Cloud](https://spring.io/projects/spring-cloud)
-* [JWT](https://jwt.io/introduction)
 * [Mybatis Plus](https://baomidou.com/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Shiro](https://shiro.apache.org/)
+* [Docker](https://www.docker.com/)
 * [Redis](https://redis.io/)
-* [AWS](https://aws.amazon.com/)
+* [Swagger](https://swagger.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,6 +89,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Xuan Jiang - [@Jax_Jiang](https://www.linkedin.com/in/xuan-jiang-0494a7192/) - j503440616@berkeley.edu
 
-Project Link: [https://github.com/Xuan-1998/Shenzhen-Metro-Website](https://github.com/Xuan-1998/Shenzhen-Metro-Website)
+Project Link: [https://github.com/Xuan-1998/Shanghai-Airport-App](https://github.com/Xuan-1998/Shanghai-Airport-App)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
